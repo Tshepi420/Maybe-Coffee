@@ -50,3 +50,29 @@ background:#8b5a3c;
 color:white;
 font-size:14px;
 }
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding :140px 8% 80px;
+    gap :50px;
+}
+
+.hero-text {
+    flex: 1;
+}
+ 
+.hero-text h1 {
+    font-size: 90px;
+    margin-bottom: 25px;
+    line-height : 90px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #5a3e2b;
+    width: 80%;
+    margin-bottom: 35px;
+}
